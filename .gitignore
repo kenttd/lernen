@@ -43,7 +43,7 @@ Thumbs.db
 
 # Composer dependencies
 /vendor/
-composer.lock
+# composer.lock
 
 # Logs and caches
 *.log

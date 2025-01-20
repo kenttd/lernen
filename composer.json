@@ -19,6 +19,7 @@
         "diglactic/laravel-breadcrumbs": "^9.0",
         "doctrine/dbal": "^4.0",
         "google/apiclient": "^2.16",
+        "heroku/heroku-buildpack-php": "^262.0",
         "intervention/image-laravel": "^1.3",
         "larabuild/optionbuilder": "^1.1",
         "larabuild/pagebuilder": "^1.4",
