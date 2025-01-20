@@ -1,0 +1,74 @@
+# Laravel & PHP
+/vendor
+/node_modules
+/public/storage
+/storage/*.key
+/storage/oauth-private.key
+/storage/oauth-public.key
+/storage/*.log
+/storage/framework/*
+/storage/logs/*
+/bootstrap/cache/*
+
+# Environment Files
+.env
+.env.backup
+.env.local
+.env.development
+.env.production
+.env.testing
+
+# Laravel IDE Helper
+/.phpstorm.meta.php
+/_ide_helper.php
+/_ide_helper_models.php
+/.phpunit.result.cache
+
+# Deployment
+/.vagrant/
+/homestead.yaml
+/homestead.json
+/.docker/
+/docker-compose.yml
+/.env.docker
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Node.js
+/npm-debug.log
+/yarn-error.log
+/pnpm-debug.log
+
+# Composer dependencies
+/vendor/
+composer.lock
+
+# Logs and caches
+*.log
+*.cache
+*.sqlite
+*.sqlite-journal
+
+# PHPUnit
+/phpunit.xml
+/phpunit.result.cache
+
+# IDE/Editor-specific
+/.idea/
+/*.sublime-workspace
+/.vscode/
+
+# Miscellaneous
+/public/hot
+/public/storage
+/public/mix-manifest.json
+/public/css/app.css
+/public/js/app.js
+/public/mix-manifest.json
+/public/build
+
+# Local database
+/database/database.sqlite
+/database/database.sqlite-journal

@@ -1,0 +1,31 @@
+{
+    "name": "amentotech/larapayease",
+    "description": "Lara-PayEase - All in one Payment Drivers",
+    "version": "1.0",
+    "autoload": {
+        "psr-4": {
+            "Amentotech\\LaraPayEase\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "amentotech",
+            "email": "info@amentotech.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "stripe/stripe-php": "^10.21"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Amentotech\\LaraPayEase\\PayEaseServiceProvider"
+            ],
+            "aliases": {
+                "PaymentDriver": "Amentotech\\LaraPayEase\\Facades\\PaymentDriver"
+            }
+        }
+    }
+}

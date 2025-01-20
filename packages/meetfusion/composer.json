@@ -1,0 +1,32 @@
+{
+    "name": "amentotech/meetfusion",
+    "description": "Google Meet Scheduler for Lernen",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Amentotech\\MeetFusion\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "amentotech",
+            "email": "info@amentotech.com"
+        }
+    ],
+    "version": "1.0",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "guzzlehttp/guzzle": "*"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Amentotech\\MeetFusion\\MeetFusionServiceProvider"
+            ],
+            "aliases": {
+                "MeetFusion": "Amentotech\\MeetFusion\\Facades\\MeetFusion"
+            }
+        }
+    }
+}

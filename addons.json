@@ -1,0 +1,70 @@
+{
+    "optionbuilder": {
+        "name": "Option Builder",
+        "package": "larabuild/optionbuilder",
+        "image": "larabuild-optionbuilder.jpg",
+        "description": "LaraBuild - Option Builder for generating project options with ease.",
+        "type": "free",
+        "demo_url": "https://codecanyon.net/item/larabuild-a-laravel-option-builder-package/42354730",
+        "status": "active"
+    },
+    "pagebuilder": {
+        "name": "Drag & DropPage Builder",
+        "package": "larabuild/pagebuilder",
+        "image": "larabuild-pagebuilder.jpg",
+        "description": "LaraBuild's drag & drop page builder helps to create custom pages easily.",
+        "type": "free",
+        "demo_url": "https://codecanyon.net/item/larabuild-a-laravel-option-builder-package/42354730",
+        "status": "active"
+    },
+    "laraguppy": {
+        "name": "LaraGuppy",
+        "package": "amenotech/laraguppy",
+        "image": "laraguppy.jpg",
+        "description": "A Laravel Real-Time Chat Solution enables instant & seamless live chat.",
+        "type": "free",
+        "demo_url": "https://codecanyon.net/item/laraguppy-a-laravel-real-time-chat-solution/52260382",
+        "status": "active"
+    },
+    "larapayease": {
+        "name": "LaraPayEase",
+        "package": "amentotech/larapayease",
+        "image": "larapayease.jpg",
+        "description": "Versatile Payment Gateway Integration Addon for Lernen.",
+        "type": "pro",
+        "price": "$29",
+        "demo_url": "https://codecanyon.net/item/lara-payease-versatile-payment-gateway-integration-addon-for-taskup/53009467",
+        "version": "lite",
+        "status": "active"
+    },
+    "meetfusion": {
+        "name": "MeetFusion",
+        "description": "Google Meet Scheduler for Lernen LMS",
+        "package": "amentotech/meetfusion",
+        "image": "meetfusion.png",
+        "type": "pro",
+        "price": "$19",
+        "demo_url": "",
+        "status": "coming soon"
+    },
+    "upcertify": {
+        "name": "upCertify",
+        "description": "Laravel Digital Certificate Generator",
+        "package": "amentotech/upcertify",
+        "image": "upcertify.jpg",
+        "type": "pro",
+        "price": "$19",
+        "demo_url": "",
+        "status": "coming soon"
+    },
+    "forumwise": {
+        "name": "ForumWise",
+        "description": "Laravel Community Board",
+        "package": "amentotech/forumwise",
+        "image": "forumwise.jpg",
+        "type": "pro",
+        "price": "$19",
+        "demo_url": "",
+        "status": "coming soon"
+    }
+}
